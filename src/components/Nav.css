@@ -1,0 +1,19 @@
+#logoHenry {
+  margin-right: 20px;
+}
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+  background-color: rgba(0, 0, 255, 0.2);
+  color: aliceblue;
+  font-weight: 700;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+img {
+  height: 50px;
+  border-radius: 10px;
+}
