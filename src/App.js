@@ -8,7 +8,7 @@ export default function App() {
 
   function onSearch(ciudad) {
     fetch(
-      `http://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=3ffbe0d979c2e2519a7daf38989ce6e7&units=metric`
+      `https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=3ffbe0d979c2e2519a7daf38989ce6e7&units=metric`
     )
       .then((r) => r.json())
       .then((recurso) => {
